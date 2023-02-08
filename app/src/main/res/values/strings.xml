@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">DOGO_android</string>
+
+    //프로필 설정
+    <string-array name="gender">
+        <item>성별</item>
+        <item>여자</item>
+        <item>남자</item>
+    </string-array>
+    <string-array name="spinner_dog">
+        <item>견종</item>
+        <item>푸들</item>
+        <item>비숑</item>
+        <item>포메라니안</item>
+        <item>말티즈</item>
+        <item>시츄</item>
+        <item>요크셔테리어</item>
+        <item>치와와</item>
+        <item>닥스훈트</item>
+        <item>웰시코기</item>
+        <item>시바견</item>
+        <item>슈나우저</item>
+        <item>비글</item>
+        <item>불독</item>
+        <item>퍼그</item>
+        <item>스파니엘</item>
+        <item>리트리버</item>
+        <item>진돗개</item>
+        <item>믹스견</item>
+    </string-array>
 </resources>
