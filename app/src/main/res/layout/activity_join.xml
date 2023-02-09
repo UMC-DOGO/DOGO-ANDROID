@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="28dp">
+        <TextView
+            android:id="@+id/join_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사랑하는 반려견을 등록해주세요!"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@id/join_img_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="48dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/join_img_btn"
+            android:layout_width="216dp"
+            android:layout_height="216dp"
+            android:background="@drawable/shape_circle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/join_text_tv"
+            app:layout_constraintBottom_toTopOf="@id/join_cl"
+            android:layout_marginTop="36dp"/>
+        <ImageView
+            android:id="@+id/join_img_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:src="@drawable/img_join_img"
+            android:translationZ="1dp"
+            app:layout_constraintBottom_toBottomOf="@id/join_img_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/join_img_btn"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/join_cl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/join_img_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="36dp">
+            <TextView
+                android:id="@+id/join_email_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이메일"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+            <EditText
+                android:id="@+id/join_email_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="이메일을 입력해주세요"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="12dp"
+                android:textColor="@color/font"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_email_tv" />
+            <ImageView
+                android:id="@+id/join_error_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/img_join_error"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/join_email_et"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/join_email_et" />
+            <View
+                android:id="@+id/join_v1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#404040"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_email_et"/>
+
+            <TextView
+                android:id="@+id/join_pw_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="비밀번호"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/join_email_et" />
+            <EditText
+                android:id="@+id/join_pw_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="7글자 이상 특수문자를 포함해주세요"
+                android:inputType="textPassword"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="12dp"
+                android:textColor="@color/font"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_pw_tv"/>
+            <ImageView
+                android:id="@+id/join_error_iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/img_join_error"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/join_pw_et"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/join_pw_et" />
+            <View
+                android:id="@+id/join_v2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#404040"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_pw_et"/>
+
+            <TextView
+                android:id="@+id/join_pwcheck_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="비밀번호 확인"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/join_pw_et"/>
+            <EditText
+                android:id="@+id/join_pwcheck_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="비밀번호를 다시 입력해주세요"
+                android:inputType="textPassword"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="12dp"
+                android:textColor="@color/font"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:layout_constraintTop_toBottomOf="@+id/join_pwcheck_tv"/>
+            <ImageView
+                android:id="@+id/join_error_iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/img_join_error"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/join_pwcheck_et"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/join_pwcheck_et" />
+            <View
+                android:id="@+id/join_v3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#404040"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_pwcheck_et"/>
+
+            <TextView
+                android:id="@+id/join_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="닉네임"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/join_pwcheck_et" />
+            <EditText
+                android:id="@+id/join_name_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="최대 7글자입니다"
+                android:inputType="text"
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="12dp"
+                android:textColor="@color/font"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_name_tv"/>
+            <ImageView
+                android:id="@+id/join_error_iv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/img_join_error"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/join_name_et"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/join_name_et" />
+            <View
+                android:id="@+id/join_v4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#404040"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/join_name_et" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/join_next_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:enabled="true"
+            android:background="@drawable/img_next"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/join_cl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
