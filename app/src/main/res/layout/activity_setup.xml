@@ -125,20 +125,15 @@
                 app:layout_constraintStart_toEndOf="@+id/setup_dog_iv"
                 app:layout_constraintTop_toTopOf="@+id/setup_dog_iv"
                 android:layout_marginLeft="10dp"/>
-<!--            <Spinner-->
-<!--                android:id="@+id/setup_gender_et"-->
-<!--                android:layout_width="80dp"-->
-<!--                android:layout_height="38dp"-->
-<!--                android:background="@drawable/btn_select"-->
-<!--                app:layout_constraintTop_toTopOf="@+id/setup_age_et"-->
-<!--                app:layout_constraintStart_toEndOf="@+id/setup_age_et"-->
-<!--                android:layout_marginLeft="8dp"/>-->
-            <Spinner
+            <EditText
                 android:id="@+id/setup_dog_et"
-                android:layout_width="wrap_content"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/btn_select"
-                android:paddingRight="16dp"
+                android:background="@drawable/shape_button_5r"
+                android:hint="견종"
+                android:inputType="text"
+                android:gravity="center"
+                android:paddingVertical="8dp"
                 app:layout_constraintTop_toBottomOf="@+id/setup_dog_iv"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="8dp"/>
