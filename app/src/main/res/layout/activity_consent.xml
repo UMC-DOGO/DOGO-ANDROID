@@ -69,7 +69,7 @@
         android:id="@+id/consent_next_btn"
         android:layout_width="match_parent"
         android:layout_height="44dp"
-        android:background="@drawable/shape_button_5r"
+        android:background="@drawable/shape_button_10r"
         android:backgroundTint="@color/main"
         android:text="로그인하기"
         android:textStyle="bold"
