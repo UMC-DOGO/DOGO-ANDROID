@@ -3,7 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dogo_android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
+        android:name=".GlobalApplication"
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -22,6 +30,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".sign.JoinActivity"/>
+        <activity android:name=".sign.SetupActivity"/>
+        <activity android:name=".sign.ConsentActivity"/>
+        <activity android:name=".sign.LoginActivity"/>
+        <activity android:name=".chatting.ChattingRoomActivity"/>
+        <activity android:name=".chatting.UserprofileActivity"/>
+
+
+
     </application>
 
 </manifest>

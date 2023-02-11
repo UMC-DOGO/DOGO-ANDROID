@@ -3,9 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/btn_profile_message.xml" value="0.173" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/btn_select.xml" value="0.173" />
         <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/img_back.xml" value="0.161" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/img_message.xml" value="0.1505" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/shape_button_10r.xml" value="0.173" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/shape_button_20r.xml" value="0.173" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/shape_button_5r.xml" value="0.173" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/drawable/shape_stroke_5r.xml" value="0.173" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_chatroom.xml" value="0.2" />
         <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_consent.xml" value="0.1515625" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_join.xml" value="0.22552083333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_login.xml" value="0.22552083333333334" />
         <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_setup.xml" value="0.22552083333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/activity_userprofile.xml" value="0.22552083333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/dialog_camera.xml" value="0.18333333333333332" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/fragment_chat.xml" value="0.22552083333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/fragment_chatting.xml" value="0.22552083333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/fragment_userprofile_list.xml" value="0.22552083333333334" />
+        <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/item_chatlist.xml" value="0.22552083333333334" />
         <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/item_userlist.xml" value="0.22552083333333334" />
         <entry key="..\:/android-sdk/AndroidStudioProjects/DOGO_android/app/src/main/res/layout/shape_select.xml" value="0.1125" />
       </map>
